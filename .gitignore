@@ -1,0 +1,9 @@
+.vscode
+.env
+constants.py
+mysess.session
+mysess33.session
+temp.jpg
+saved_img.jpg
+test.png
+__pycache__
