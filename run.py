@@ -15,4 +15,4 @@ def main():
 
 if __name__ == "__main__":
     keep_alive()
-    schedule.every().day.at("7:00").do(main)
+    schedule.every().day.at("07:00").do(main)
