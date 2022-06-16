@@ -13,6 +13,7 @@ def main():
     utils.send_quote("./temp.jpg")
 
 
-if __name__ == "__main__":
-    keep_alive()
-    schedule.every().day.at("07:00").do(main)
+# if __name__ == "__main__":
+#     keep_alive()
+#     schedule.every().day.at("07:00").do(main)
+schedule.every(10).seconds.do(main)
